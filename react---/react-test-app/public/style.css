@@ -1,0 +1,22 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.todo-app{
+    color: rgb(243, 156, 43);
+    text-align: center;
+    background-color: purple;
+    margin: 5px;
+}
+.card{
+    background-color: antiquewhite;
+    width: 23%;
+    border-radius: 5px;
+    padding: 5px;
+    text-align: justify;
+    box-shadow: 2px 2px 2px 2px gray;
+    margin-left: 15px;
+    float: left;
+
+}

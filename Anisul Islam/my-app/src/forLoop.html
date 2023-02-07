@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foor Loop</title>
+</head>
+
+<body>
+    <div id="root"></div>
+    <script>
+        const person = ["Showkat", 30];
+        for (let i = 0; i < person.length; i++) {
+            console.log(person[i]);
+        }
+        console.log("----------");
+        const car = {
+            name: "Volvo",
+            weight: 360,
+            modelNo: "VL007"
+        };
+
+        let text = '';
+        for (let x in car) {
+            text += car[x];
+
+        }
+        console.log(text);
+        // for (let j = 0; j < car.length; j++) {
+        //     console.log(car[j]);
+        // }
+
+    </script>
+</body>
+
+</html>

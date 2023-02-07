@@ -1,0 +1,34 @@
+*{
+    margin: 0 auto;
+}
+.heading {
+    color: red;
+    font-size: 2rem;
+    background-color: purple;
+    height: 3rem;
+    text-align: center;
+}
+
+.card{
+    background-color: antiquewhite;
+    border-radius: 5px;
+    width: 25%;
+    border-style: 2px solid;
+    border-color: coral;
+    display: inline-block;
+    
+  
+}
+.todoTitle{
+    text-align: center;
+    font-size: 1.2rem;
+}
+.tododesc{
+    text-align: center;
+}
+.date{
+    padding-top: 10px;
+    text-align: center;
+}
+
+

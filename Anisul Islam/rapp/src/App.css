@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.appName{
+    background-color: magenta;
+    font-family: Arial;
+    font-size: xx-large;
+    padding: 5px;
+    text-align: center;
+    color: white;
+}
+.card{
+    background-color: antiquewhite;
+    width: 25%;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 5px;
+}
+.components{
+    display: flex;
+}

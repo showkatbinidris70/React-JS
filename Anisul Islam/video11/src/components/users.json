@@ -1,0 +1,18 @@
+[
+    {
+        "fullName": "Showkat Ali",
+        "age": 30,
+        "phones": [
+            {"home": "01921839596"},
+            {"office": "01565256545"}
+        ]
+    },
+    {
+        "fullName": "Mohammad Ali",
+        "age": 30,
+        "phones": [
+            {"home": "01921839596"},
+            {"office": "01565256545"}
+        ]
+    }
+]
