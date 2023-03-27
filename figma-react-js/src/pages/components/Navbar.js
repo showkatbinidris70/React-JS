@@ -1,6 +1,6 @@
 import React from 'react'
-import {ContainerSection} from '../../styles/Common.styled'
-import {NavbarSection} from '../../styles/Navbar.styled'
+import { ContainerSection } from '../../styles/Common.styled'
+import { NavbarSection } from '../../styles/Navbar.styled'
 
 export default function Navbar() {
     return (<ContainerSection>

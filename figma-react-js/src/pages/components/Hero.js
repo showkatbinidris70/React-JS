@@ -1,15 +1,17 @@
-import React from 'react'
-import Header from './Header';
-import Navbar from './Navbar';
-import Feature from './Feature';
-
+import React from "react";
+import { BackgroundImgNavbar } from "../../styles/Navbar.styled";
+import Feature from "./Feature";
+import Header from "./Header";
+import Navbar from "./Navbar";
 
 export default function Hero() {
-    return (
-        <div>
-            <Header/>
-            <Navbar/>
-            <Feature/>
-        </div>
-    )
+  return (
+    <div>
+      <BackgroundImgNavbar>
+        <Header />
+        <Navbar />
+        <Feature />
+      </BackgroundImgNavbar>
+    </div>
+  );
 }
