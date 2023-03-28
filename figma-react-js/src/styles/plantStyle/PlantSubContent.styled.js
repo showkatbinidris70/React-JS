@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import BackgroundImg from '../../images/ship.PNG'
+import BackgroundImg from '../../images/ship.PNG';
 
 export const PlantSubContentSection = styled.div `
 height: 400px;
@@ -32,7 +32,7 @@ color: #FFFFFF;
   width: 100%;
   height: 370px;
   margin-left: -15%;
-  margin-top: -11%;
+  margin-top: -10.3%;
   border-radius: 15px 0px 0px 15px;
   padding-right: 20%;
   h1{
