@@ -1,17 +1,10 @@
 import React from "react";
-import { BackgroundImgNavbar } from "../../styles/Navbar.styled";
-import Feature from "./Feature";
-import Header from "./Header";
-import Navbar from "./Navbar";
+import BackgroundSlider from "./BackgroundSlider";
 
 export default function Hero() {
-  return (
-    <div>
-      <BackgroundImgNavbar>
-        <Header />
-        <Navbar />
-        <Feature />
-      </BackgroundImgNavbar>
-    </div>
-  );
+    return (
+        <div>
+            <BackgroundSlider></BackgroundSlider>
+        </div>
+    );
 }

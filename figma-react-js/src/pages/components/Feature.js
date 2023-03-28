@@ -1,11 +1,11 @@
 import React from "react";
-import { Link } from 'react-router-dom';
+import {Link} from 'react-router-dom';
 import PlanImg from "../../images/download.jpg";
 import FishImg from "../../images/fish.PNG";
 import GroceryImg from "../../images/grocery.jpg";
 import LiveStockImg from "../../images/livestock.PNG";
-import { ContainerSection } from "../../styles/Common.styled";
-import { FeatureSection, FeaturesImgSection } from "../../styles/Navbar.styled";
+import {ContainerSection} from "../../styles/Common.styled";
+import {FeatureSection, FeaturesImgSection} from "../../styles/Navbar.styled";
 
 // const Data = [
 //     {
@@ -36,10 +36,9 @@ import { FeatureSection, FeaturesImgSection } from "../../styles/Navbar.styled";
 // ]
 
 export default function Feature() {
-  return (
-    <FeatureSection>
-      <ContainerSection>
-        {/* <GridFour gap="2rem">
+    return (
+        <FeatureSection>
+            <ContainerSection> {/* <GridFour gap="2rem">
                     {
                     Data.map(feature => (
                         <GridFourCard>
@@ -56,25 +55,29 @@ export default function Feature() {
                         </GridFourCard>
                     ))
                 } </GridFour> */}
-        <FeaturesImgSection>
-          <div>
-            <Link to="/Plant"><img src={PlanImg} alt="" /></Link>
-            <h2>Plant & Plant Products</h2>
-          </div>
-          <div>
-            <Link to="/Plant"><img src={GroceryImg} alt="" /></Link>
-            <h2>Processed Products</h2>
-          </div>
-          <div>
-            <Link to="/Plant"><img src={LiveStockImg} alt="" /></Link>
-            <h2>Livestock  Products</h2>
-          </div>
-          <div>
-            <Link to="/Plant"><img src={FishImg} alt="" /></Link>
-            <h2>Fish & Fish Products</h2>
-          </div>
-        </FeaturesImgSection>
-      </ContainerSection>
-    </FeatureSection>
-  );
+                <FeaturesImgSection>
+                    <div>
+                        <Link to="/plant"><img src={PlanImg}
+                                alt=""/></Link>
+                        <h2>Plant & Plant Products</h2>
+                    </div>
+                    <div>
+                        <Link to="/process"><img src={GroceryImg}
+                                alt=""/></Link>
+                        <h2>Processed Products</h2>
+                    </div>
+                    <div>
+                        <Link to="/livestock"><img src={LiveStockImg}
+                                alt=""/></Link>
+                        <h2>Livestock  Products</h2>
+                    </div>
+                    <div>
+                        <Link to="/fish"><img src={FishImg}
+                                alt=""/></Link>
+                        <h2>Fish & Fish Products</h2>
+                    </div>
+                </FeaturesImgSection>
+            </ContainerSection>
+        </FeatureSection>
+    );
 }

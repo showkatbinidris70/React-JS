@@ -1,6 +1,5 @@
 import styled from "styled-components";
-import BackgroundImg from "../images/fog-nature.png";
-export const HeaderSection = styled.div`
+export const HeaderSection = styled.div `
   width: 100%;
   height: 80px;
   display: flex;
@@ -28,7 +27,9 @@ export const HeaderSection = styled.div`
     font-size: 2rem;
     margin-top: 5rem;
   }
-  @media (max-width: ${({ theme }) => theme.mobile}) {
+  @media (max-width: ${
+    ({theme}) => theme.mobile
+}) {
     h2 {
       width: 100%;
       left: 10px;
@@ -51,7 +52,7 @@ export const HeaderSection = styled.div`
     }
   }
 `;
-export const NavbarSection = styled.nav`
+export const NavbarSection = styled.nav `
   width: 100%;
   justify-content: space-between;
   align-items: center;
@@ -68,7 +69,9 @@ export const NavbarSection = styled.nav`
     justify-content: space-between;
   }
 
-  @media (max-width: ${({ theme }) => theme.mobile}) {
+  @media (max-width: ${
+    ({theme}) => theme.mobile
+}) {
     ul {
       list-style-type: none;
       display: flex;
@@ -80,23 +83,25 @@ export const NavbarSection = styled.nav`
     }
   }
 `;
-export const CarouselSlider = styled.div`
-  background-image: 
-  /* url("https://media.geeksforgeeks.org/wp-content/uploads/rk.png"); */
-    url("../images/fog-nature-forest-woods-india 1.png");
-  background-size: "cover";
-  background-repeat: no-repeat;
-  min-height: 700px;
-  background-color: #ddd;
-`;
-export const FeatureSection = styled.section`
+// export const CarouselSlider = styled.div `
+// background-image:
+// /* url("https://media.geeksforgeeks.org/wp-content/uploads/rk.png"); */
+//     url("../images/fog-nature-forest-woods-india 1.png");
+// background-size: "cover";
+// background-repeat: no-repeat;
+// min-height: 700px;
+// background-color: #ddd;
+// `;
+export const FeatureSection = styled.section `
   background-color: transfarent;
   margin-top: 300px;
   color: #ffffff;
-  opacity: 0.5;
-  background: linear-gradient(0deg, rgba(255, 226, 150, 0.3), rgb(38, 38, 38));
+  opacity: 0.9;
+  /* background: linear-gradient(0deg, rgba(255, 255, 125, 0.2), rgb(38, 38, 38));
+   */
+  background         : linear-gradient(0deg, rgba(12, 11, 12, 0.91), rgba(12, 11, 12, 0.91));
 `;
-export const GridFourCard = styled.div`
+export const GridFourCard = styled.div `
   justify-content: space-between;
   align-items: center;
   img {
@@ -109,7 +114,7 @@ export const GridFourCard = styled.div`
     margin-left: 3rem;
   }
 `;
-export const GridThreeCard = styled.div`
+export const GridThreeCard = styled.div `
   justify-content: space-between;
   align-items: center;
   margin-bottom: 7rem;
@@ -120,25 +125,19 @@ export const GridThreeCard = styled.div`
     width: 350px;
   }
   h1 {
-    justify-content: space-between;
-    align-items: center;
-    margin-left: 5px;
     font-size: 5rem;
     font-weight: 600;
     margin-top: -3.6rem;
     color: #40b554;
+    margin-right: 80%;
   }
   h3 {
-    justify-content: space-between;
-    align-items: center;
-    margin-left: 5px;
+    margin-right: 72%;
     font-size: 1.5rem;
     font-weight: 400;
   }
   h2 {
-    justify-content: space-between;
-    align-items: center;
-    margin-left: 5px;
+    margin-right: 70px;
     font-size: 2rem;
     font-weight: 700;
   }
@@ -153,24 +152,24 @@ export const GridThreeCard = styled.div`
     padding-bottom: 5rem;
   }
 `;
-export const GridTwoCard = styled.div`
+export const GridTwoCard = styled.div `
   justify-content: space-around;
   align-items: center;
   display: flex;
 `;
 
-export const BackgroundImgNavbar = styled.div`
-  /* background-image: url(${BackgroundImg}); */
-  background: linear-gradient(0deg, rgba(255, 226, 150, 0.3), rgb(38, 38, 38)),
-    url(${BackgroundImg});
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-  width: 100%;
-`;
+// export const BackgroundImgNavbar = styled.div `
+// /* background-image: url(${BackgroundImg}); */
+// /* background: linear-gradient(0deg, rgba(255, 226, 150, 0.3), rgb(38, 38, 38)),
+//     url(${BackgroundImg}); */
+// /* background-position: center;
+// background-repeat: no-repeat;
+// background-size: cover;
+// position: relative;
+// width: 100%; */
+// `;
 
-export const FeaturesImgSection = styled.div`
+export const FeaturesImgSection = styled.div `
   width: 80%;
   height: 200px;
   display: flex;

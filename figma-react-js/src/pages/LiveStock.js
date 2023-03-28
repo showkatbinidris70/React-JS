@@ -1,14 +1,16 @@
 import React from 'react'
 import Footer from './components/Footer'
-import PlantHero from './components/plantComponent/PlantHero'
-import PlantMainContent from './components/plantComponent/PlantMainContent'
+import LiveStockHero from './components/liveStockComponent/LiveStockHero'
+import LiveStockMainContent from './components/liveStockComponent/LiveStockMainContent'
 import PlantRecentNews from './components/plantComponent/PlantRecentNews'
+import LiveStockSubContent from './components/liveStockComponent/LiveStockSubContent'
 
 export default function Home() {
     return (
         <div>
-            <PlantHero/>
-            <PlantMainContent/>
+            <LiveStockHero/>
+            <LiveStockMainContent/>
+            <LiveStockSubContent/>
             <PlantRecentNews/>
             <Footer/>
         </div>

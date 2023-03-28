@@ -1,6 +1,6 @@
 import React from 'react'
 import {ContainerSection} from '../../../styles/plantStyle/PlantCommon.styled'
-import {NavbarSection} from '../../../styles/plantStyle/PlantNavbar.styled'
+import {NavbarSection} from '../../../styles/liveStockStyle/LiveStockNavbar.styled'
 import {BrowserRouter as Router, Route, Routes, Link} from 'react-router-dom';
 export default function Navbar() {
     return (
@@ -8,7 +8,7 @@ export default function Navbar() {
         <nav>
             <NavbarSection>
                 <ContainerSection>
-                    <ul> {/* <li>Home</li> */}
+                    <ul>
                         <li>
                             <Link style={
                                     {
