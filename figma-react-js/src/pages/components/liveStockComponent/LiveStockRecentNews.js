@@ -1,13 +1,13 @@
 import React from "react";
-import PlantImg1 from "../../../images/plant-1.png";
-import PlantImg2 from "../../../images/plant-2.png";
-import PlantImg3 from "../../../images/plant-3.png";
+import LiveStockImg1 from "../../../images/stock1.png";
+import LiveStockImg2 from "../../../images/stock2.png";
+import LiveStockImg3 from "../../../images/stock3.png";
+import { LiveStockNewsHeader } from '../../../styles/liveStockStyle/LiveStockResentNews.styled';
 import {
   ContainerSection,
   GridThree
 } from "../../../styles/plantStyle/PlantCommon.styled";
 import { GridThreeCard } from "../../../styles/plantStyle/PlantNavbar.styled";
-import { PlantNewsHeader } from "../../../styles/plantStyle/PlantResentNews.styled";
 
 const Data = [
   {
@@ -15,7 +15,7 @@ const Data = [
     date: "20",
     mnyr: "March 2022",
     title: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr,",
-    img: PlantImg1,
+    img: LiveStockImg1,
     text: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
     bgColor: "#000",
     color: "#FFF",
@@ -26,7 +26,7 @@ const Data = [
     mnyr: "March 2022",
     title: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr,",
     text: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
-    img: PlantImg2,
+    img: LiveStockImg2,
     bgColor: "#000",
     color: "#FFF",
   },
@@ -36,7 +36,7 @@ const Data = [
     mnyr: "March 2022",
     title: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr,",
     text: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
-    img: PlantImg3,
+    img: LiveStockImg3,
     bgColor: "#000",
     color: "#FFF",
   },
@@ -45,14 +45,14 @@ export default function PlantRecentNews() {
   return (
     <div>
       <ContainerSection>
-        <PlantNewsHeader>
-        <div>
+        <LiveStockNewsHeader>
+          <div>
             <h2> WE ARE HERE TO <span>SHARE STORY</span>
               <br />
              FROM LATEST NEWS
             </h2>
           </div>
-        </PlantNewsHeader>
+        </LiveStockNewsHeader>
         <GridThree>
           {" "}
           {Data.map((feature) => (

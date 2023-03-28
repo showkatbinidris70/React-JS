@@ -1,9 +1,9 @@
 import React from 'react'
+import FishMainContent from './components/fishComponent/FishMainContent'
+import FishRecentNews from './components/fishComponent/FishRecentNews'
+import FishSubContent from './components/fishComponent/FishSubContent'
 import Footer from './components/Footer'
 import PlantHero from './components/plantComponent/PlantHero'
-import FishMainContent from './components/fishComponent/FishMainContent'
-import PlantRecentNews from './components/plantComponent/PlantRecentNews'
-import FishSubContent from './components/fishComponent/FishSubContent'
 
 export default function Home() {
     return (
@@ -11,7 +11,7 @@ export default function Home() {
             <PlantHero/>
             <FishMainContent/>
             <FishSubContent/>
-            <PlantRecentNews/>
+            <FishRecentNews/>
             <Footer/>
         </div>
     )

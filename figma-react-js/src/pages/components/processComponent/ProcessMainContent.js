@@ -1,32 +1,33 @@
-import React from 'react'
-import TriangleImage from "../../../images/Rectangle 66.png";
-import FruitsImage from "../../../images/image 3.png";
-import {Content} from '../../../styles/plantStyle/PlantMainContent.styled';
-import ProcessMaincontentImg from '../../../images/processed.PNG'
+import React from "react";
+
+import honeyImg from "../../../images/honey.png";
+import patatoImg from "../../../images/potato.png";
+import ProcessMaincontentImg from "../../../images/processed.PNG";
+import { Content } from "../../../styles/processStyle/ProcessMainContent.styled";
 
 export default function ProcessMainContent() {
-    return (
-        <div>
-            <img src={ProcessMaincontentImg}
-                alt=""/>
-            <Content>
-                <div className='twoImages'>
-                    <div className='tringleImg'>
-                        <img src={TriangleImage}
-                            alt=''/>
-                    </div>
-                    <div className='fruitImg'>
-                        <img src={FruitsImage}
-                            alt=''/>
-                    </div>
-                </div>
-                <div className='content'>
-                    <h2>About Agro Trade</h2>
-                    <p>Bangladesh - one of the fastest-growing economies of South Asia got her independence in 1971 after the 9-month long Liberation war under the undisputed and unrivaled leadership of the Father of the Nation Bangabandhu Sheikh Mujibur Rahman. Under the dynamic leadership of his able daughter, the Honorable Prime Minister Sheikh Hasina, Bangladesh has made remarkable progress in raising incomes, reducing poverty, and improving social indicators and has been classified as a middle-income country by World Bank.
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    The Bangladesh Trade Portal (BTP) is an official source of all regulatory information relevant to traders who wish to import goods into Bangladesh or export to other countries. The Ministry of Commerce of the Bangladesh Government has established the Portal in order to improve the predictability and transparency of the country’s trading laws and processes.</p>
-                    <button>View more</button>
-                </div>
-            </Content>
+  return (
+    <div>
+      <img src={ProcessMaincontentImg} alt="" />
+      <Content>
+        <div className="left">
+          <img className="patatoImage" src={patatoImg} alr="" />
+          <img className="honeyImage" src={honeyImg} alr="" />
         </div>
-    )
+        <div className="right">
+          <h2>Processed Product</h2>
+          <p>
+            Bangladesh - one of the fastest-growing economies of South Asia got
+            her independence in 1971 after the 9-month long Liberation war under
+            the undisputed and unrivaled leadership of the Father of the Nation
+            Bangabandhu Sheikh Mujibur Rahman. Under the dynamic leadership of
+            his able daughter, the Honorable Prime Minister Sheikh Hasina,
+            Bangladesh has made remarkable progress in raising incomes, reducing
+            poverty, and improving social indicators and has been classified as
+            a middle-income country by World Bank.
+          </p>
+        </div>
+      </Content>
+    </div>
+  );
 }

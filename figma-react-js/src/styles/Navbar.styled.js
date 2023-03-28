@@ -137,7 +137,7 @@ export const GridThreeCard = styled.div `
     font-weight: 400;
   }
   h2 {
-    margin-right: 70px;
+    margin-right: 25%;
     font-size: 2rem;
     font-weight: 700;
   }

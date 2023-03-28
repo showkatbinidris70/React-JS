@@ -1,7 +1,7 @@
 import React from "react";
-import PlantImg1 from "../../../images/plant-1.png";
-import PlantImg2 from "../../../images/plant-2.png";
-import PlantImg3 from "../../../images/plant-3.png";
+import FishImg1 from "../../../images/fish1.png";
+import FishImg2 from "../../../images/fish2.png";
+import FishImg3 from "../../../images/fish3.png";
 import {
   ContainerSection,
   GridThree
@@ -15,7 +15,7 @@ const Data = [
     date: "20",
     mnyr: "March 2022",
     title: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr,",
-    img: PlantImg1,
+    img: FishImg1,
     text: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
     bgColor: "#000",
     color: "#FFF",
@@ -26,7 +26,7 @@ const Data = [
     mnyr: "March 2022",
     title: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr,",
     text: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
-    img: PlantImg2,
+    img: FishImg2,
     bgColor: "#000",
     color: "#FFF",
   },
@@ -36,7 +36,7 @@ const Data = [
     mnyr: "March 2022",
     title: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr,",
     text: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
-    img: PlantImg3,
+    img: FishImg3,
     bgColor: "#000",
     color: "#FFF",
   },

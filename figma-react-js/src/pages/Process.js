@@ -1,9 +1,9 @@
 import React from 'react'
 import Footer from './components/Footer'
 import PlantHero from './components/plantComponent/PlantHero'
-import ProcessMainContent from './components/processComponent/ProcessMainContent'
-import PlantRecentNews from './components/plantComponent/PlantRecentNews'
 import PlantSubContent from './components/processComponent/PlantSubContent'
+import ProcessMainContent from './components/processComponent/ProcessMainContent'
+import ProcessRecentNews from './components/processComponent/ProcessRecentNews'
 
 export default function Home() {
     return (
@@ -11,7 +11,7 @@ export default function Home() {
             <PlantHero/>
             <ProcessMainContent/>
             <PlantSubContent/>
-            <PlantRecentNews/>
+            <ProcessRecentNews/>
             <Footer/>
         </div>
     )

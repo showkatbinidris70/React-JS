@@ -125,39 +125,33 @@ img{
     height: 250px;
     width: 350px;
 }
-h1{
-    justify-content: space-between;
-    align-items: center;
-    margin-left: 5px;
+h1 {
     font-size: 5rem;
     font-weight: 600;
-    margin-top: -3.6rem;
-    color: #40B554;
-}
-h3{
-    justify-content: space-between;
-    align-items: center;
-    margin-left: 5px;
+    color: #40b554;
+    margin-right: 80%;
+  }
+  h3 {
+    margin-right: 72%;
     font-size: 1.5rem;
     font-weight: 400;
-}
-h2{
-    justify-content: space-between;
-    align-items: center;
-    margin-left: 5px;
+  }
+  h2 {
+    margin-right: 25%;
     font-size: 2rem;
     font-weight: 700;
-}
-p{
+
+  }
+  p {
     text-align: justify;
     text-justify: inter-word;
     margin-left: 5px;
     font-size: 1.1rem;
-    font-weight: 400; 
-    margin-top : 5px;
+    font-weight: 400;
+    margin-top: 5px;
     margin-right: 5px;
     padding-bottom: 5rem;
-}
+  }
 `
 export const GridTwoCard = styled.div `
     justify-content: space-around;
