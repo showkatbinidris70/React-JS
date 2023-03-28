@@ -1,4 +1,6 @@
 import styled from "styled-components";
+
+
 export const HeaderSection = styled.div `
   width: 100%;
   height: 80px;
@@ -100,6 +102,16 @@ export const FeatureSection = styled.section `
   /* background: linear-gradient(0deg, rgba(255, 255, 125, 0.2), rgb(38, 38, 38));
    */
   background         : linear-gradient(0deg, rgba(12, 11, 12, 0.91), rgba(12, 11, 12, 0.91));
+ 
+  @media screen and (max-width: 580px) {
+  background-color: transfarent;
+  margin-top: 150px;
+  color: #ffffff;
+  opacity: 0.9;
+  background         : linear-gradient(0deg, rgba(12, 11, 12, 0.91), rgba(12, 11, 12, 0.91));
+ 
+  }
+
 `;
 export const GridFourCard = styled.div `
   justify-content: space-between;
@@ -180,5 +192,20 @@ export const FeaturesImgSection = styled.div `
   img{
     height:150px;
     width:150px
+  }
+
+  @media screen and (max-width: 580px) {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0 auto;
+
+  img{
+    height:50px;
+    width:50px;
+    padding:10px;
+  }
   }
   `;
