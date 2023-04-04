@@ -1,12 +1,12 @@
 import "./App.css";
-import State from "./State";
+import State from "./components/State";
 
 function App() {
-  return (
-    <div>
-      <State count="0" />
-    </div>
-  );
+    return (
+        <div>
+            <State name="Showkat"/>
+        </div>
+    );
 }
 
 export default App;
